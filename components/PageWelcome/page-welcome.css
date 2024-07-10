@@ -1,0 +1,52 @@
+#welcome-page{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#welcome-page-content{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+#profile-pic{
+    height: 30%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+
+#welcome-page-content h1{
+    color: #213547;
+    margin-bottom: 0;
+}
+
+#welcome-page-content p{
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#new-trip-render-btn{
+    color: hsla(34, 56%, 71%, 95%);
+    background-color: #213547;
+    padding: .5em 1em;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+    transition: all .25s;
+}
+
+
+#new-trip-btn:hover{
+    background-color: hsl(208, 37%, 15%);
+}

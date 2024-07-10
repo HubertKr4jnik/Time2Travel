@@ -1,0 +1,95 @@
+nav{
+    min-height: 8vh;
+    position: sticky;
+    top: 0;
+    display: grid;
+    padding: 0 5%;
+    grid-template-columns: 1fr 1.5fr 1fr;;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+#logo-container, #nav-select-group, #login-container{
+    display: flex;
+    position: relative;
+    place-items: center;
+    justify-content: center;
+}
+
+#select-container{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 85% 15%;
+    width: 60%;
+    height: 60%;
+    background-color: hsl(0, 0%, 90%);
+    border: none;
+    border-radius: 3em;
+}
+
+#select-container select, #select-container input[type='button']{
+    cursor: pointer;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: hsl(0, 0%, 20%)  ;
+}
+
+#select-container select{
+    width: 90%;
+    height: 80%;
+    background-color: transparent;
+    border-radius: 2em;
+}
+
+#select-container select:focus{
+    outline: none;
+}
+
+#select-container input[type='button']{
+    width: 60%;
+    background-color: transparent;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: .4em;
+    font-size: 1.2em;
+}
+
+#select-container input[type='button']:focus{
+    outline: none;
+}
+
+#login-container a{
+    color: hsla(34, 56%, 71%, 95%);
+    background-color: #213547;
+    padding: .5em 1em;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+    transition: all .25s;
+}
+
+#login-container a:hover{
+    background-color: hsl(208, 37%, 15%);
+}
+
+#logo-container{
+    height: 100%;
+}
+
+#logo-container h1{
+    color: #213547;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+#logo-container img{
+    height: 8vh;
+    filter: invert(93%) sepia(85%) saturate(625%) hue-rotate(308deg) brightness(94%) contrast(84%);
+}

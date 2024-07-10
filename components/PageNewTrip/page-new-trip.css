@@ -1,0 +1,56 @@
+#new-trip-page{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+#new-trip-page-content{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: space-between;
+    height: 80%;
+}
+
+#new-trip-page-content h1{
+    color: #213547;
+}
+
+#new-trip-page-content p{
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+#new-trip-create-btn{
+    color: hsla(34, 56%, 71%, 95%);
+    background-color: #213547;
+    padding: .5em 1em;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+    margin-top: 1em;
+    transition: all .25s;
+}
+
+
+#new-trip-create-btn:hover{
+    background-color: hsl(208, 37%, 15%);
+}
+
+#new-trip-page-content input[type="text"], input[type="number"], input[type="date"]{
+    width: fit-content;
+    height: fit-content;
+    padding: .75em 1.5em;
+    text-align: center;
+    background-color: hsl(0, 0%, 90%);
+    border: none;
+    border-radius: 3em;
+}
